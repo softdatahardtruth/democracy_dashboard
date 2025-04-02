@@ -3,8 +3,8 @@ import pandas as pd
 from supabase import create_client, Client
 
 def render_tab():
-    url = "https://DEIN_PROJECT_URL.supabase.co"  # <- Ersetze mit deiner Supabase-URL
-    key = "DEIN_ANON_KEY"  # <- Ersetze mit deinem Supabase anon key
+    url = "https://clzaciqixfdqxgxceaiz.supabase.co"  # <- Ersetze mit deiner Supabase-URL
+    key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImNsemFjaXFpeGZkcXhneGNlYWl6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDM2MTA1NTQsImV4cCI6MjA1OTE4NjU1NH0.obLqpoAfrgXAkPPTQ_Iv9DDw91Jk33e0FBd0zK2O9kg"  # <- Ersetze mit deinem Supabase anon key
     supabase: Client = create_client(url, key)
 
     st.subheader("Live-Risikoanalyse aus Supabase (Tabelle: DemoData)")
