@@ -3,4 +3,3 @@ numpy
 pandas
 matplotlib
 scipy
-supabase-py==1.0.3
